@@ -19,7 +19,7 @@ const MEMORIES = [
   {
     id: 1,
     image: "/images/shit.png  ",
-    caption: "Our first adventure together",
+    caption: "Our first adventure gugugaga",
     song: "/music/paaro.mpeg",
     songTitle: "Our Song",
   },
