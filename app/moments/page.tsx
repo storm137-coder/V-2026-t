@@ -18,9 +18,9 @@ const PAGE_SUBTITLE = "A collection of memories that make my heart flutter"
 const MEMORIES = [
   {
     id: 1,
-    image: "/images/memory-1.jpg",
+    image: "/images/shit.png  ",
     caption: "Our first adventure together",
-    song: "/music/song-1.mp3",
+    song: "/music/paaro.mpeg",
     songTitle: "Our Song",
   },
   {
