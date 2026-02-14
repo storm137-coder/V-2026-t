@@ -24,7 +24,7 @@ const OPTIONS = [
   },
   {
     id: "partners",
-    label: "Partners in Crime",
+    label: "Best Friends",
     icon: Users,
     description: "Best friends + more",
   },
@@ -32,17 +32,17 @@ const OPTIONS = [
     id: "soulmates",
     label: "Soulmates",
     icon: Sparkles,
-    description: "Written in the stars",
+    description: "Girlfriend and Boyfriend",
   },
   {
     id: "royalty",
-    label: "Queen & King Bee",
-    icon: Crown,
-    description: "Ruling our own hive",
+    label: "Nothing anymore",
+    icon: Heart,
+    description: "Done with me ",
   },
 ]
 
-const SELECTED_MESSAGE = "I love that! Whatever we call it, what matters is that we're together."
+const SELECTED_MESSAGE = "I love that! Whatever we call it, what matters is that we're together or not ."
 
 export default function WhatAreWePage() {
   const [selected, setSelected] = useState<string | null>(null)

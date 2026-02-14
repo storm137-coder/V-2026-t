@@ -13,9 +13,9 @@ import { cn } from "@/lib/utils"
 // CUSTOMIZABLE CONSTANTS
 // ============================================
 const PROPOSAL_QUESTION = "Will you bee mine?"
-const PROPOSAL_MESSAGE = "I know this might seem silly, but every moment with you feels like magic. You make my heart flutter like a bee in a garden of flowers. So I have to ask..."
+const PROPOSAL_MESSAGE = "I know this might seem silly, but every moment with you feels like magic. u made my world colourful and made it grey again "
 const YES_RESPONSE = "You just made me the happiest bee in the world!"
-const NO_RESPONSE = "That's okay... I'll keep buzzing around, hoping you'll change your mind!"
+const NO_RESPONSE = "Oww i thought u will click on Yes dumbo That's okay... I'll keep buzzing around, hoping you'll change your mind! you better change it "
 
 export default function ProposalPage() {
   const [answer, setAnswer] = useState<"yes" | "no" | null>(null)
@@ -46,7 +46,7 @@ export default function ProposalPage() {
             </h1>
             
             <p className="text-foreground text-lg mb-8 leading-relaxed">
-              {YES_RESPONSE}
+              I hope u mean it and will love me with your whole heart this time tbh i dont want anyone else but u 
             </p>
             
             {/* Celebration hearts */}

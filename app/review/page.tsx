@@ -12,7 +12,7 @@ import { Heart, MessageCircle, Instagram, Send, Star } from "lucide-react"
 // ============================================
 const TITLE = "One Last Thing..."
 const MESSAGE = "I really hope you enjoyed this little surprise I made for you. It would mean the world to me if you could tell me what you think!"
-const INSTAGRAM_HANDLE = "@your_instagram"
+const INSTAGRAM_HANDLE = "@GAGAN_S_137"
 const INSTAGRAM_PROMPT = "Send me a message on Instagram with your thoughts, reactions, or just a sweet reply!"
 const THANK_YOU_MESSAGE = "Thank you for taking this journey with me. You make my heart so happy!"
 

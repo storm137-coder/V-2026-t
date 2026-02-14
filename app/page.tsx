@@ -46,7 +46,7 @@ export default function HomePage() {
               Hey there,
             </h1>
             <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">
-              {RECIPIENT_NAME}
+              MY LOVE 
             </h2>
             
             <p className="text-muted-foreground mb-8 text-lg leading-relaxed">

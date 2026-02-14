@@ -11,13 +11,13 @@ import { Heart, Star } from "lucide-react"
 // ============================================
 const TITLE = "My Final Words"
 const PARAGRAPHS = [
-  "If you've made it this far, I hope you know just how much you mean to me. Every word here was written with you in my heart and a smile on my face.",
-  "You are my sunshine on cloudy days, my comfort when times get tough, and my reason to smile every single morning. I am so incredibly grateful that you're in my life.",
+  "If you've made it this far, I hope you know just how much you mean to me. Every word here was written with you in my heart and sadness on my face.",
+  "You are my sunshine on cloudy days, my comfort when times get tough, and my reason to smile every single morning. I was so incredibly grateful that you're in my life.",
   "No matter what tomorrow brings, I want you to know that my love for you is as constant as the stars in the sky. You've made my world brighter just by being in it.",
-  "Thank you for being you. Thank you for loving me. Thank you for making every day feel like an adventure worth living.",
+  "Thank you for being you. Thank you for loving me. Thank you for making every day feel like an adventure worth living. i really hope you will fix things again "  ,
 ]
 const SIGNATURE = "Forever yours,"
-const NAME = "Your Little Bee"
+const NAME = "Your Big Bee"
 
 export default function FinalWordsPage() {
   return (

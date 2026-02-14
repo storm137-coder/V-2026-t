@@ -18,8 +18,9 @@ const PAGE_SUBTITLE = "A collection of memories that make my heart flutter"
 const MEMORIES = [
   {
     id: 1,
-    image: "/images/shit.png  ",
-    caption: "Our first adventure ",
+    video: "/videos/memory-1.mp4",
+    poster: "/images/memory-1.jpg",
+    caption: "Our first adventure",
     song: "/music/paaro.mpeg",
     songTitle: "Our Song",
   },
@@ -195,6 +196,8 @@ interface MemoryCardProps {
 }
 
 function MemoryCard({ memory, isSelected, onClick }: MemoryCardProps) {
+  const hasVideo = Boolean(memory.video)
+
   return (
     <button
       onClick={onClick}
@@ -205,12 +208,24 @@ function MemoryCard({ memory, isSelected, onClick }: MemoryCardProps) {
         "hover:scale-[1.02] active:scale-[0.98]"
       )}
     >
-      <Image
-        src={memory.image || "/placeholder.svg"}
-        alt={memory.caption}
-        fill
-        className="object-cover transition-transform duration-300 group-hover:scale-105"
-      />
+      {hasVideo ? (
+        <video
+          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          src={memory.video}
+          poster={memory.poster || "/placeholder.svg"}
+          muted
+          playsInline
+          loop
+          preload="metadata"
+        />
+      ) : (
+        <Image
+          src={memory.image || "/placeholder.svg"}
+          alt={memory.caption}
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+        />
+      )}
       
       {/* Overlay */}
       <div className={cn(
@@ -231,6 +246,12 @@ function MemoryCard({ memory, isSelected, onClick }: MemoryCardProps) {
       {isSelected && (
         <div className="absolute top-2 right-2 w-8 h-8 rounded-full bg-primary flex items-center justify-center">
           <Music className="w-4 h-4 text-primary-foreground animate-pulse" />
+        </div>
+      )}
+
+      {hasVideo && (
+        <div className="absolute top-2 left-2 w-8 h-8 rounded-full bg-secondary flex items-center justify-center">
+          <ImageIcon className="w-4 h-4 text-secondary-foreground" />
         </div>
       )}
     </button>

@@ -9,12 +9,9 @@ import { Heart } from "lucide-react"
 // ============================================
 // CUSTOMIZABLE CONSTANTS
 // ============================================
-const GREETING_TITLE = "Hello, My Sweet Honey!"
-const GREETING_MESSAGE = `Every day with you feels like a beautiful dream I never want to wake up from. Your smile lights up my world, and your laughter is the sweetest melody I've ever heard.
-
-I wanted to create something special just for you — a little digital garden where I can express all the things my heart holds for you.
-
-So take your time, explore each page, and know that every word here comes straight from my heart to yours.`
+const GREETING_TITLE = "Hello, Yeddiii"
+const GREETING_MESSAGE = `i dont know why i am doing this i thought of deleting everything but i could not bring myself doing it , But i did make some changes this was not what 
+i wrote or created for you , it was very sweet and lovely i hope you will like this one too `
 
 export default function GreetingPage() {
   return (
