@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils"
 // CUSTOMIZABLE CONSTANTS
 // ============================================
 const PAGE_TITLE = "Our Sweet Moments"
-const PAGE_SUBTITLE = "A collection of memories that make my heart flutter"
+const PAGE_SUBTITLE = "Do not mind this page this was the only thing remaining to be worked on  but i dont want to so skip this "
 
 const MEMORIES = [
   {
